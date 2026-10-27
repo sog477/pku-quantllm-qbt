@@ -1,0 +1,30 @@
+[
+  {
+    "pattern": "test_research.py",
+    "returncode": 0
+  },
+  {
+    "pattern": "test_regressions.py",
+    "returncode": 0
+  },
+  {
+    "pattern": "test_audit_*.py",
+    "returncode": 0
+  },
+  {
+    "pattern": "test_orders.py",
+    "returncode": 0
+  },
+  {
+    "pattern": "test_markets_rights_l3.py",
+    "returncode": 0
+  },
+  {
+    "pattern": "test_5dr.py",
+    "returncode": 0
+  },
+  {
+    "pattern": "test_factor_evaluation.py",
+    "returncode": 0
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "account": "sog477",
+  "repository": "pku-quantllm-qbt",
+  "tests": 325,
+  "issue8_scenarios": 21,
+  "issue9_scenarios": 14,
+  "factor_rows": 60,
+  "raw_data_published": false,
+  "machine_paths_normalized_in_documents": true
+}

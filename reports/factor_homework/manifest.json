@@ -1,0 +1,39 @@
+{
+  "data_start": "2020-01-02",
+  "data_end": "2026-10-16",
+  "days": 1643,
+  "stocks": 5451,
+  "display_start": "2025-01-02",
+  "annualization": 242,
+  "split": {
+    "train": "2020-2023",
+    "validation": "2024",
+    "test": "2025-2026-10-16"
+  },
+  "fixed_directions": {
+    "5DR": "negative past5 return",
+    "momentum20": "positive past20 return",
+    "lowvol20": "negative past20 volatility",
+    "liquidity20": "positive log ADV20"
+  },
+  "fdr_family": "5 scores including residual x 4 horizons = 20 tests per split",
+  "historical_holdout_not_blind": true,
+  "market_vol_threshold_train": 0.011072320966082306,
+  "scenario_count": 14,
+  "baseline_matches_original_strategy": true,
+  "seconds": 339.93,
+  "data_sha256": {
+    "amt.feather": "cd2a2f43e273963f93230163813aafaddb52307d1805ee1a583aeab931e418c2",
+    "close.feather": "621b7b381f96c7d162317ac67c8831aebfc5e78f4b1ecd59159fc93e0ea109e7",
+    "cumadj.feather": "5ebc13623115743c39b2cb56dbe365f10c4c72d6fed6ac4041d9377895439173",
+    "high.feather": "88313810bedab563416c94e90a60cc0cf089fd62923be1bcad0e2680558a5cf7",
+    "low.feather": "e5c7da4b6fcdae3cc50fe2f6d30faf36b83c68c25d6db5faba079716748fa8ea",
+    "num_trades.feather": "37a89a5b9af8a00deafc089be614f7784167ae283277337f31552c809f28a142",
+    "open.feather": "a75e7aa3dac9e101f2c3cfff85728b26a29ea50ccc6ec46c315a36e8476d5f92"
+  },
+  "code_sha256": {
+    "run_factor_homework.py": "80213f178a7146f6a5fa79806a4566d5a04504110b6e95fe2b9ac1632ca0718e",
+    "factor_evaluation.py": "9b36253e053636f636a8fb38851246111cf2c5e1960331acf226fe688c7b614e",
+    "five_day_reversal.py": "d29da814764c294d446ee86ee35f1189d210a942910af0585881a9ec36d1d3d4"
+  }
+}

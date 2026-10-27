@@ -1,0 +1,9 @@
+data/
+__pycache__/
+*.pyc
+*.log
+*.zip
+.env*
+reports/*/*_outcome.json
+reports/*/source.txt
+reports/*/route.json

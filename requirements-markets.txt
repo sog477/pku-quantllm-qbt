@@ -1,0 +1,4 @@
+# Needed for named time zones on Windows; explicit local-naive session files still work without it.
+tzdata>=2024.1
+# Optional calendar adapter. Explicit sessions/settlement_sessions JSON does not require this package.
+exchange-calendars>=4.11.1,<5

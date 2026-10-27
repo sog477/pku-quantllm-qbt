@@ -1,0 +1,13 @@
+{
+  "new_tests": 8,
+  "existing_5dr_tests": 9,
+  "engine_regressions": 40,
+  "baseline_prefix_checks": 8,
+  "baseline_exact_reproduction": true,
+  "final_source_sha256": {
+    "run_factor_homework.py": "80213f178a7146f6a5fa79806a4566d5a04504110b6e95fe2b9ac1632ca0718e",
+    "build_factor_homework_report.py": "e457f687b13f559a9b7549c0775c9de9f0b3d7c916caccfc14ce05d73e4c2bed",
+    "qbt\\factor_evaluation.py": "9b36253e053636f636a8fb38851246111cf2c5e1960331acf226fe688c7b614e",
+    "qbt\\__init__.py": "8e12ee6c73e071e7b6e08f040564488fc6d167c6dd0a2fe3f0679c3161603b6f"
+  }
+}

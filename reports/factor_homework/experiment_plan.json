@@ -1,0 +1,57 @@
+[
+  {
+    "id": "baseline"
+  },
+  {
+    "id": "zero_cost",
+    "zero": true
+  },
+  {
+    "id": "slippage10",
+    "slip": 10
+  },
+  {
+    "id": "k20",
+    "k": 20
+  },
+  {
+    "id": "k50",
+    "k": 50
+  },
+  {
+    "id": "liquid100m",
+    "min_amt": 100000000.0
+  },
+  {
+    "id": "main_board",
+    "boards": "main"
+  },
+  {
+    "id": "weekly",
+    "every": 5
+  },
+  {
+    "id": "buffer150",
+    "buffer": 150
+  },
+  {
+    "id": "delay1",
+    "delay": 1
+  },
+  {
+    "id": "capacity005",
+    "capacity": 0.005
+  },
+  {
+    "id": "capital100m",
+    "capital": 100000000.0
+  },
+  {
+    "id": "lowvol20",
+    "factor": "lowvol20"
+  },
+  {
+    "id": "blend50",
+    "factor": "blend50"
+  }
+]

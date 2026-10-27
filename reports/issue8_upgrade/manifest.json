@@ -1,0 +1,17 @@
+{
+  "seconds": 202.60665689996677,
+  "scenarios": 21,
+  "capital": 1000000000.0,
+  "start": "2025-01-02",
+  "end": "2026-09-30",
+  "commission": 0.0001,
+  "stamp": 0.0005,
+  "transfer": "qbt historical schedule",
+  "capacity": "1% lagged ADV20 with realized amount upper bound",
+  "st_source": "lagged_inference",
+  "experiment": "fixed retrospective diagnostics; not blind validation or new alpha certification",
+  "hashes": {
+    "run_issue8_review.py": "6234fdacfac197ba3e37e922ff803c759b758b2628e781fa12177daaa47353fb",
+    "qbt\\research.py": "5b270b2976934c6286a768485277bcce050af0e4af4549e27682257bcb66ae25"
+  }
+}

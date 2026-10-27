@@ -1,0 +1,99 @@
+{
+  "generator_pyarrow": "20.0.0",
+  "dates": [
+    "2024-01-02",
+    "2024-01-03",
+    "2024-01-04",
+    "2024-01-05",
+    "2024-01-08",
+    "2024-01-09",
+    "2024-01-10",
+    "2024-01-11",
+    "2024-01-12"
+  ],
+  "first": [
+    10.0,
+    11.0,
+    null,
+    13.25,
+    14.5,
+    15.0,
+    16.0,
+    17.0,
+    18.0
+  ],
+  "second": [
+    100.0,
+    101.0,
+    102.0,
+    103.0,
+    104.0,
+    105.0,
+    106.0,
+    107.0,
+    108.0
+  ],
+  "files": {
+    "none_3.arrow": {
+      "rows": 9,
+      "batches": 3,
+      "compression": null,
+      "sha256": "96ed12b0ad30e205fba0958093728e5cb9a160ebbbe41ee59c0ed32c82262ea6"
+    },
+    "none_9.arrow": {
+      "rows": 9,
+      "batches": 1,
+      "compression": null,
+      "sha256": "2ed77b84bfa89c1493e844551db787d655060cbacad6f9e9c74b0fc233b9c430"
+    },
+    "lz4_3.arrow": {
+      "rows": 9,
+      "batches": 3,
+      "compression": "lz4",
+      "sha256": "4eaabdf5285bd0529dbb4301b372b1382d0cb82c02fe14745551e6e244d9682b"
+    },
+    "lz4_9.arrow": {
+      "rows": 9,
+      "batches": 1,
+      "compression": "lz4",
+      "sha256": "7bf385cfc817e3fac7be91f0a3f988db0c59e3de7d4cf0e892e0b86aa139e60d"
+    },
+    "zstd_3.arrow": {
+      "rows": 9,
+      "batches": 3,
+      "compression": "zstd",
+      "sha256": "5f23b67701a847abbdfc9a18ad8e07527c4d9c39673808db6484a606c66254d1"
+    },
+    "zstd_9.arrow": {
+      "rows": 9,
+      "batches": 1,
+      "compression": "zstd",
+      "sha256": "a1bff0b1e4f27c129399a67c666b1c6689cf330e691c4bd7fbdb8d4583f538bd"
+    },
+    "types_none.arrow": {
+      "rows": 3,
+      "compression": null,
+      "sha256": "f476a5c6a0468cd89007321bc3a5686b95b5a3566778c0f7b1b5d43476a19d29"
+    },
+    "types_lz4.arrow": {
+      "rows": 3,
+      "compression": "lz4",
+      "sha256": "45e55a36907347e45fcb316b586b0a9cf513e29552a48e0006a6ec3c81102ce8"
+    },
+    "nonull_lz4_3.arrow": {
+      "rows": 9,
+      "batches": 3,
+      "compression": "lz4",
+      "sha256": "4cbd14a089b53502d44b49449e7f519febc8c5070bfbef63f76f277bc8b1bbbc"
+    },
+    "timezone_lz4.arrow": {
+      "rows": 2,
+      "timezone": "Asia/Shanghai",
+      "local_dates": [
+        "2024-01-02",
+        "2024-01-03"
+      ],
+      "sha256": "512933023caba008f90b69c1b0a5afdbba87917855ad630b177d845a13a57fcc"
+    }
+  }
+}

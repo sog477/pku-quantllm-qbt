@@ -1,0 +1,18 @@
+{
+  "rows": 1643,
+  "stocks": 5451,
+  "complete_ohlc": 7840790,
+  "inconsistent_ohlc": 0,
+  "inconsistent_examples": [],
+  "missing_by_field": {
+    "open": 1115203,
+    "high": 1115203,
+    "low": 1115203,
+    "close": 1115203,
+    "amt": 1115203,
+    "cumadj": 1115205
+  },
+  "factor_small_nonzero_changes": 880546,
+  "factor_changes_above_tolerance": 26295,
+  "limitation": "internal checks only; no true volume/VWAP, ST or external price verification inferred"
+}

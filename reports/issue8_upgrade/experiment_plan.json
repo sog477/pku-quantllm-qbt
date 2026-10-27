@@ -1,0 +1,29 @@
+{
+  "capital": 1000000000.0,
+  "end": "2026-09-30",
+  "strategies": [
+    {
+      "name": "5dr",
+      "every": 1
+    },
+    {
+      "name": "equal_pool",
+      "every": 5
+    },
+    {
+      "name": "trim_extremes",
+      "every": 5
+    },
+    {
+      "name": "market_relative_lowvol",
+      "every": 20
+    }
+  ],
+  "slippage_bps": [
+    0,
+    5,
+    10
+  ],
+  "exit_sessions": 20,
+  "matched_pool": "identical signal-day eligibility including finite factor score"
+}
